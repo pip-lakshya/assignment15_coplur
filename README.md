@@ -12,19 +12,19 @@ A minimal, Dockerized Python application based on `python:3.12-slim`. It prints 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/pip-lakshya/assign15
+git clone https://github.com/pip-lakshya/assignment15_coplur
 ```
 
 ### 2. Build the Docker Image
 Compile the blueprint into a local container image:
 ```bash
-docker build -t assign15 .
+docker build -t assignment15_coplur .
 ```
 
 ### 3. Run the Container
 Instantiate and run the isolated app process:
 ```bash
-docker run --rm assign15
+docker run --rm assignment15_coplur
 ```
 
 ## Sample Output Screenshot
